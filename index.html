@@ -3,8 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Mehul project</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="node_modules/popper/dist/popper.min.js"></script>
 </head>
 <body>
-	<h1>hey this is working</h1>
+	<div class="container">
+		<h1>Mail us!</h1>
+		<form action="send" method="post">
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" class="form-control" placeholder="enter your email" name="email">
+			</div>
+			<div class="form-group"><label for="name">Name:</label><input type="text" class="form-control" placeholder="enter your name" name="name"></div>
+			<div class="form-group"><label for="phone">Phone:</label><input type="text" class="form-control" placeholder="enter your phone" name="phone"></div>
+			<button type="submit" class="btn btn-lg btn-primary">
+				SUBMIT
+			</button>
+		</form>
+	</div>
+
+<!-- js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

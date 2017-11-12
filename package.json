@@ -2,7 +2,6 @@
   "name": "test-project",
   "version": "1.0.0",
   "description": "i am making this project for mehul",
-  
   "scripts": {
     "start": "node server.js"
   },
@@ -17,6 +16,10 @@
   },
   "homepage": "https://github.com/rakathegreat71/MyNodeProject#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.4.0",
+    "nodemon": "^1.12.1"
   }
 }
