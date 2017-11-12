@@ -1,0 +1,22 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "i am making this project for mehul",
+  
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakathegreat71/MyNodeProject.git"
+  },
+  "author": "rakesh sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakathegreat71/MyNodeProject/issues"
+  },
+  "homepage": "https://github.com/rakathegreat71/MyNodeProject#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
